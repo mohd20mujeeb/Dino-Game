@@ -7,7 +7,7 @@ export default class Floor{
         this.h=24;
         this.y=GAME_HIGHT-60;
         this.image=new Image();
-        this.image.src = '../assets/floor.png';
+        this.image.src = './assets/floor.png';
         this.speed=SPEED;
     }
 
